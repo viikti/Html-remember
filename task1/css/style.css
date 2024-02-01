@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway&display=swap');
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.wrapperTop{
+    text-align: center;
+}
+
+h2{
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 40px;
+    margin-top: 118px;
+}
+
+.wrapperTop-line{
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    margin: 0 auto 40px;
+}
+
+.wrapperTop__text{
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.wrapperBottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    margin-top: 92px;
+}
+.wrapperBottom__item{
+text-align: center;
+}
+
+.wrapperBottom__subtitle{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 24px 0 26px;
+}
+
+.wrapperBottom__title{
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Tabs{
+    margin-top: 100px;
+}
+
+/*.Tabs .container{*/
+/*   border: 1px solid #C6CBCD;*/
+/*    border-top: none;*/
+
+/*}*/
+
+.MyTabs{
+    display: flex;
+
+}
+.MyTabs__button1, .MyTabs__button2, .MyTabs__button3 {
+    width: 200px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+
+}
+.MyTabs__button1{
+    border: 1px solid rgb(198, 203, 205);
+    border-bottom: 1px solid #f3f8f6;
+}
+.MyTabs__button4{
+    width: 600px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+}
+
+.item{
+    display: flex;
+    padding-left: 100px;
+    border: 1px solid #C6CBCD;
+    border-top: none;
+}
+.itemLeft{
+    padding-top: 55px;
+}
+.itemLeft__subtitle{
+    width: 570px;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    color:#000000;
+    margin-bottom: 57px;
+}
+
+.itemLeft__text1 {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 26px;
+    padding-right: 10px;
+
+}
+.itemLeft__text2 {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 84px;
+    padding-right: 43px;
+}
+
+.itemLeft__download{
+    width: 270px;
+    height: 58px;
+    background-color: #EC7979;
+    border: 1px solid #EC7979;
+    text-align: center;
+    padding: 22px 92px;
+
+
+
+}
+
+.itemLeft__url{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.itemRight{
+    padding-left: 15px;
+
+}
